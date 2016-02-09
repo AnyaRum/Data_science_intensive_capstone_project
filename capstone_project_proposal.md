@@ -11,11 +11,11 @@ Yelp is an American multinational corporation headquartered in San Francisco, Ca
 The data set for the project is Yelp users’ uploaded images (.jpg file format) of restaurants and corresponding labels (or business ids). The Data Files can be downloaded from site: (https://www.kaggle.com/c/yelp-restaurant-photo-classification/data).
 
 ### List of the Data files:
-*train_photos.tgz* - photos of the training set (469684 images; 6.64 GB)
-*test_photos.tgz* - photos of the test set (474304 images; 6.71 GB)
-*train_photo_to_biz_ids.csv* - maps the photo id to business id
-*test_photo_to_biz_ids.csv* - maps the photo id to business id
-*train.csv* - main training dataset. Includes the business id's, and their corresponding labels. 
+ - *train_photos.tgz* - photos of the training set (469684 images; 6.64 GB)
+ - *test_photos.tgz* - photos of the test set (474304 images; 6.71 GB)
+ - *train_photo_to_biz_ids.csv* - maps the photo id to business id
+ - *test_photo_to_biz_ids.csv* - maps the photo id to business id
+ - *train.csv* - main training dataset. Includes the business id's, and their corresponding labels. 
 
 ###There are 9 business IDs (labels) that can be assigned to pictures:
 
@@ -36,7 +36,7 @@ First of all, it necessary to remove duplicated images from the data sets (in ca
 
 ##5. Deliverables
 
-	**Slide desk showing the problem statement, implemented approach and results**
-	**IPython notebook with codes/codebook**
-	**Intended score in the Kaggle completion is 0.7 (Mean F1-Score; [GitHub](https://www.kaggle.com/c/yelp-restaurant-photo-classification/details/evaluation))**
+	- Slide desk showing the problem statement, implemented approach and results
+	- IPython notebook with codes/codebook
+	- Intended score in the Kaggle completion is 0.7 (Mean F1-Score)
 
