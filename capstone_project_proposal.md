@@ -8,16 +8,16 @@ Currently, restaurant labels are manually selected by Yelp users when they submi
 Yelp is an American multinational corporation headquartered in San Francisco, California. It develops, hosts and markets Yelp.com and the Yelp mobile app, which publish crowd-sourced reviews about local businesses.
 
 ##3. Data
-The data set for the project is Yelp users’ uploaded images of restaurants and corresponding labels (or business ids). The Data Files can be downloaded from site: (https://www.kaggle.com/c/yelp-restaurant-photo-classification/data).
+The data set for the project is Yelp users’ uploaded images (.jpg file format) of restaurants and corresponding labels (or business ids). The Data Files can be downloaded from site: (https://www.kaggle.com/c/yelp-restaurant-photo-classification/data).
 
 ### List of the Data files:
-*train_photos.tgz* - photos of the training set
-*test_photos.tgz* - photos of the test set
+*train_photos.tgz* - photos of the training set (469684 images; 6.64 GB)
+*test_photos.tgz* - photos of the test set (474304 images; 6.71 GB)
 *train_photo_to_biz_ids.csv* - maps the photo id to business id
 *test_photo_to_biz_ids.csv* - maps the photo id to business id
 *train.csv* - main training dataset. Includes the business id's, and their corresponding labels. 
 
-###There are 9 business ids (labels) that can be assigned to pictures:
+###There are 9 business IDs (labels) that can be assigned to pictures:
 
 Business ID # | Description
 ------------ | -------------
@@ -32,13 +32,11 @@ Business ID # | Description
 8| good_for_kids
 
 ##4. Aprroach
-	* Remove duplicated images from the data sets (in case users uploaded the same picture 	multiple times by mistake or chain restaurants upload the same pictures on the website)
-	* Implement image representation
-	* Feature selection
-	* Implement semi-supervised machine learning algos
+First of all, it necessary to remove duplicated images from the data sets (in case users uploaded the same picture multiple times by mistake or chain restaurants upload the same pictures on the website). Second, image representation procedure will be implemented. Third, the feature selection procedure will be developed. And at the last stage, semi-supervised (?) machine learning algorithms for classification.
 
 ##5. Deliverables
-	* Slide desk showing the problem statement, implemented approach and results
-	* IPython notebook with codes
-	* Intended score in Kaggle completion is 0.7
+
+	* **Slide desk showing the problem statement, implemented approach and results**
+	* **IPython notebook with codes/codebook**
+	* **Intended score in the Kaggle completion is 0.7 (Mean F1-Score; https://www.kaggle.com/c/yelp-restaurant-photo-classification/details/evaluation)**
 
