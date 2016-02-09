@@ -36,7 +36,7 @@ First of all, it necessary to remove duplicated images from the data sets (in ca
 
 ##5. Deliverables
 
-	- Slide desk showing the problem statement, implemented approach and results
-	- IPython notebook with codes/codebook
-	- Intended score in the Kaggle completion is 0.7 (Mean F1-Score)
+- Slide desk showing the problem statement, implemented approach and results
+- IPython notebook with codes/codebook
+- Intended score in the Kaggle completion is 0.7 (Mean F1-Score)
 
