@@ -41,7 +41,7 @@ Business ID # | Description
  - Compute the loss functions using two methdologies:
    * **Multiclass Support Vector Machine (SVM)** (with hingle loss function, maybe try squared hingle loss). The loss function will be extended with the Regularization penalty (L2 norm). 
    * **Softmax** (cross enropy loss) with Regularization penalty. 
-
+- Optimization with Mini-batch gradient descent
 
 
 ##5. Deliverables
