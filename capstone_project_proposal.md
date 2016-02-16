@@ -32,7 +32,12 @@ Business ID # | Description
 8| good_for_kids
 
 ##4. Aprroach
-First of all, it necessary to remove duplicated images from the data sets (in case users uploaded the same picture multiple times by mistake or chain restaurants upload the same pictures on the website). Second, image representation procedure will be implemented. Third, the feature selection procedure will be developed. And at the last stage, supervised machine learning algorithms for classification.
+1. Remove duplicated images from the data sets (in case users uploaded the same picture multiple times by mistake or chain restaurants upload the same pictures on the website). 
+2. Image preprocessing procedure will involve the following steps:
+ - Computing a mean image across the training images and subtracting it from every image
+ - Scale each image so that its values range from [-1, 1]
+
+
 
 ##5. Deliverables
 
