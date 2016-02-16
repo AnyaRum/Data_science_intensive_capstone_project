@@ -36,6 +36,11 @@ Business ID # | Description
 2. **Image preprocessing** procedure will involve the following steps:
  - Computing a mean image across the training images and subtracting it from every image
  - Scale each image so that its values range from [-1, 1]
+3. Implement **Linear classifer** using a subset of data (O(10000) images) (*Capstone project Milestone report?*). The implementation will consist of the following steps:
+ - Randomly choose set of weights **W** and biases **b** 
+ - Compute the loss functions using two methdologies:
+   * **Multiclass Support Vector Machine (SVM) loss** (with hingle loss function, maybe try squared hingle loss). The loss function will be extended with the Regularization penalty (L2 norm). 
+   * 
 
 
 
