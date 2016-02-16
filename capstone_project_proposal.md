@@ -32,8 +32,8 @@ Business ID # | Description
 8| good_for_kids
 
 ##4. Aprroach
-1. Remove duplicated images from the data sets (in case users uploaded the same picture multiple times by mistake or chain restaurants upload the same pictures on the website). 
-2. Image preprocessing procedure will involve the following steps:
+1. **Remove duplicated images** from the data sets (in case users uploaded the same picture multiple times by mistake or chain restaurants upload the same pictures on the website). 
+2. **Image preprocessing** procedure will involve the following steps:
  - Computing a mean image across the training images and subtracting it from every image
  - Scale each image so that its values range from [-1, 1]
 
