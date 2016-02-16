@@ -43,6 +43,7 @@ Business ID # | Description
     * **Softmax** (cross enropy loss) with Regularization penalty. 
  - Optimization with Mini-batch gradient descent
 
+4. Implement Convolutional Neural Network...
 
 ##5. Deliverables
 
